@@ -1,0 +1,80 @@
+* {margin: 0; padding: 0;}
+body{
+    background-color: rgb(217, 255, 255);
+}
+
+.parallax_home {
+    background-image: url("/media/images/site-decoration/test.png");
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    background-image: url("/media/images/logo/RainyDays_Logo.png");
+    height: 30%;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    z-index: 10;
+  }
+
+    
+
+
+    .topnav ul li a {
+        text-decoration: none;
+        color: black;
+        background-color: red;
+        
+    }
+    .topnav ul li:active {
+        text-decoration: underline;
+    }
+
+    .topnav ul li {
+        display: inline;
+        margin-right: 130px;
+        margin-top: 10px;
+       
+    }
+    .topnav ul li:last-child {
+        margin-right: 15;
+    }
+
+    .topnav ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 10 0 10 0;
+        background-color: rgb(83, 83, 83);
+        border: 1px solid black;
+        height: 80px;
+        
+
+    }
+
+    .topnav ul li a:visited {
+        color: black;
+        
+    }
+
+    .topnav {
+        position: fixed;
+        width: 100%;
+    }
+
+    .h1_banner {
+        background-color: blue;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        margin-top: 20px;
+        padding: 20 0;
+        border-radius: 15px;
+    }
