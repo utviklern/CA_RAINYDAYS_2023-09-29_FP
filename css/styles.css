@@ -9,11 +9,19 @@ body {
 
 .parallax_home {
     background-image: url("/media/images/site-decoration/test.png");
-    min-height: 31.25rem;
+    min-height: 45.25rem;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.parallax_home img {
+    width: 400px;
+    float: right;
+    margin-top: 225px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .topnav ul li a {
@@ -21,13 +29,15 @@ body {
     color: black;
     display: inline-block;
     text-align: center;
-    padding: 1rem 1.2rem;
+    padding: 0 1.2rem;
+/* må få tekst til center og legge inn ikon for cart */
 
 
 }
 
 .topnav ul li a.active {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid black;
 
 }
 
@@ -39,14 +49,14 @@ body {
 }
 
 .topnav ul li:last-child {
-    margin-right: 15;
+    
 }
 
 .topnav ul {
     list-style-type: none;
     text-align: center;
     padding: 0.8rem 0;
-    background-color: green ;
+    background-color: rgb(210, 255, 210) ;
     border-bottom: 3px solid black;
     height: 3rem;
 
@@ -74,32 +84,108 @@ body {
     border-radius: 0.93rem;
 }
 
-.jacket_product_card_home {
+.showcase {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-around;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.product_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    max-width: 300px;
+    
+}
+
+.image-and-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    min-width: 100px;
+    
+}
+
+.image-and-text img {
+    width: 100%;
+    /* margin: px 0; */
+    min-width: 200px;
+    box-sizing: border-box;
+}
+
+.image-and-text p {
+    box-sizing: border-box;
+    margin: 40px 10px 10px 10px;
     border: 1px solid black;
-    border-radius: 0.93rem;
-    width: 10rem;
-    font-size: 0.87rem;
-    display: block;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: grey;
+    flex-shrink: 1;
+
 }
 
-.jacket_product_card_image {
-    height: 200px;
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0 5px 0;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.read_more_anchor {
-border: 1px solid black;
-text-decoration: none;
-color: black;
-padding: 0.2rem;
+
+.read-more{
+    padding: 8px 30px;
+    border: 1px solid black;
+    background-color: rgb(255, 202, 69);
+    border-radius: 15px;
 }
 
-.read_more_anchor:visited{
+.read-more:hover {
+    /* transform: scale(1.05); */
+    background-color: black;
+    color: rgb(255, 202, 69);
+}
+
+
+.add-to-cart{
+    padding: 8px 30px;
+    border: 1px solid black;
+    background-color: rgb(255, 202, 69);
+    border-radius: 15px;
+}
+
+a {
     text-decoration: none;
     color: black;
-   
 }
 
-.add_to_cart_button {
+/* slutt på flexbox, begynnelsen på m*/
 
+@media screen and (max-width: 700px) {
+    body{
+        background-color: rgb(230, 252, 255);
+    }
+    .parallax_home {
+        
+    }
+    .product_card{
+        max-width: 100%;
+        width: 100%;
+        flex-shrink: 1;
+        box-sizing: border-box;
+    }
+    .image-and-text img {
+        width: 10vw;
+    
+    }
 }
-
