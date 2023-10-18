@@ -142,12 +142,14 @@ body {
     gap: 10px;
 }
 
-
-.read-more{
+.btn {
     padding: 8px 30px;
     border: 1px solid black;
-    background-color: rgb(255, 202, 69);
     border-radius: 15px;
+}
+
+.read-more{
+    background-color: rgb(255, 202, 69);
 }
 
 .read-more:hover {
@@ -158,10 +160,7 @@ body {
 
 
 .add-to-cart{
-    padding: 8px 30px;
-    border: 1px solid black;
-    background-color: rgb(255, 202, 69);
-    border-radius: 15px;
+    background-color: rgb(125, 112, 78);
 }
 
 a {
