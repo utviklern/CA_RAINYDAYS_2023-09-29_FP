@@ -56,25 +56,26 @@ body {
     list-style-type: none;
     text-align: center;
     padding: 0.8rem 0;
-    background-color: rgb(210, 255, 210) ;
-    border-bottom: 3px solid black;
-    height: 3rem;
-
-
-}
-
-.topnav ul li a:visited {
-    color: black;
-
-}
-
-.topnav {
-    position: fixed;
-    width: 100%;
-}
-
-.h1_banner {
-    background-color: blue;
+        border-bottom: 3px solid black;
+        height: 3rem;
+    
+    
+    }
+    
+    .topnav ul li a:visited {
+        color: black;
+    
+    }
+    
+    .topnav {
+        position: fixed;
+        width: 100%;
+        background: rgb(34, 193, 195);
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 126, 253, 1) 100%);
+    }
+    
+    .h1_banner {
+        background-color: blue;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
