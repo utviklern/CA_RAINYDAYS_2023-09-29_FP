@@ -17,11 +17,12 @@ body {
 }
 
 .parallax_home img {
-    width: 400px;
+    width: 350px;
     float: right;
     margin-top: 225px;
     margin-left: auto;
     margin-right: auto;
+    visibility: hidden;
 }
 
 .topnav ul li a {
@@ -42,13 +43,16 @@ body {
 }
 
 .topnav ul li {
-    display: inline;
+    display: inline-flex;
+
     margin-right: 8.12rem;
     margin-top: 0.6rem;
 
 }
 
-.topnav ul li:last-child {}
+.topnav ul li:last-child { 
+    margin: 0;
+}
 
 .topnav ul {
     list-style-type: none;
@@ -62,7 +66,6 @@ body {
 
 .topnav ul li a:visited {
     color: black;
-
 }
 
 .topnav {
@@ -101,7 +104,6 @@ body {
     margin: 20px;
     padding: 10px;
     max-width: 300px;
-
 }
 
 .image-and-text {
@@ -130,7 +132,6 @@ body {
     padding: 20px;
     background-color: grey;
     flex-shrink: 1;
-
 }
 
 .buttons {
@@ -185,6 +186,6 @@ a {
 
     .image-and-text img {
         width: 10vw;
-
+        visibility: visible;
     }
 }
