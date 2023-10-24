@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --
+}
 
 body {
     background-color: rgb(217, 255, 255);
 }
 
-.parallax_home {
+.parallax-home {
     background-image: url("/media/images/site-decoration/test.png");
     min-height: 45.25rem;
     background-size: cover;
@@ -16,7 +19,7 @@ body {
     background-position: center;
 }
 
-.parallax_home img {
+.parallax-home img {
     width: 350px;
     float: right;
     margin-top: 225px;
@@ -26,6 +29,8 @@ body {
 }
 
 .topnav ul li a {
+    font-size: 1.2rem;
+    font-weight: 500;
     text-decoration: none;
     color: black;
     display: inline-block;
@@ -75,7 +80,7 @@ body {
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 126, 253, 1) 100%);
 }
 
-.h1_banner {
+.h1-banner {
     background-color: blue;
     text-align: center;
     margin-left: auto;
@@ -95,7 +100,7 @@ body {
     flex-wrap: wrap;
 }
 
-.product_card {
+.product-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,32 +111,28 @@ body {
     max-width: 300px;
 }
 
-.image-and-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    min-width: 100px;
-
-}
-
-.image-and-text img {
+.product-image {
     width: 100%;
     /* margin: px 0; */
     min-width: 200px;
     box-sizing: border-box;
 }
 
-.image-and-text p {
+.product-description {
+    font-family: bai;
     box-sizing: border-box;
     margin: 40px 10px 10px 10px;
     border: 1px solid black;
     border-radius: 15px;
     padding: 20px;
-    background-color: grey;
-    flex-shrink: 1;
+}
+
+.product-price {
+
+    /* font-family: ; */
+    font-weight: 600;
+    color: red;
+
 }
 
 .buttons {
