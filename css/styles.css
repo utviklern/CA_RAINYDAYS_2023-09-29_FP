@@ -3,11 +3,15 @@
     padding: 0;
 }
 :root {
-    --
+    /* legge inn font til slogan under logo  */
+    --bai-jamjuree: 'Bai Jamjuree', sans-serif;
+    --rem-spacing2: 2rem;
+    --size15px: 0.937rem;
+    --size10px: 0.625rem;
 }
 
 body {
-    background-color: rgb(217, 255, 255);
+    background-color: #FBFEFF;
 }
 
 .parallax-home {
@@ -19,13 +23,35 @@ body {
     background-position: center;
 }
 
-.parallax-home img {
-    width: 350px;
-    float: right;
-    margin-top: 225px;
-    margin-left: auto;
-    margin-right: auto;
-    visibility: hidden;
+
+.topnav {
+    position: fixed;
+    width: 100%;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 126, 253, 1) 100%);
+}
+
+.topnav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0.8rem 0;
+    border-bottom: 3px solid black;
+    height: 5rem;
+    flex-wrap: nowrap;
+}
+
+.topnav ul li {
+    display: inline-flex;
+    margin-right: 8.12rem;
+    margin-top: 0.6rem;
+}
+
+.topnav ul li a:visited {
+    color: black;
+}
+
+.topnav ul li:last-child { 
+    margin: 0;
 }
 
 .topnav ul li a {
@@ -37,47 +63,18 @@ body {
     text-align: center;
     padding: 0 1.2rem;
     /* må få tekst til center og legge inn ikon for cart */
-
-
 }
 
-.topnav ul li a.active {
+.active {
     text-decoration: none;
-    border-bottom: 1px solid black;
-
-}
-
-.topnav ul li {
-    display: inline-flex;
-
-    margin-right: 8.12rem;
-    margin-top: 0.6rem;
-
-}
-
-.topnav ul li:last-child { 
-    margin: 0;
-}
-
-.topnav ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 0.8rem 0;
+    margin-top: var(--rem-spacing2);
+    padding-bottom: var(--size10px);
     border-bottom: 3px solid black;
-    height: 3rem;
-
 
 }
 
-.topnav ul li a:visited {
-    color: black;
-}
-
-.topnav {
-    position: fixed;
-    width: 100%;
-    background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 126, 253, 1) 100%);
+.mobile-navbar, .logo {
+    display: none; 
 }
 
 .h1-banner {
@@ -94,9 +91,9 @@ body {
 .showcase {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: var(--size15px);
     justify-content: space-around;
-    margin-top: 15px;
+    margin-top: var(--size15px);
     flex-wrap: wrap;
 }
 
@@ -107,7 +104,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 5px;
     margin: 20px;
-    padding: 10px;
+    padding: var(--size10px);
     max-width: 300px;
 }
 
@@ -119,23 +116,25 @@ body {
 }
 
 .product-description {
-    font-family: bai;
+    font-family: var(--bai-jamjuree);
     box-sizing: border-box;
-    margin: 40px 10px 10px 10px;
+    margin: 2.5rem var(--size10px) var(--size10px) var(--size10px);
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: var(--size15px);
     padding: 20px;
 }
 
 .product-price {
 
     /* font-family: ; */
+    font-size: 1.2rem;
     font-weight: 600;
     color: red;
+    margin: 10px 0;
 
 }
 
-.buttons {
+.card-buttons {
     display: flex;
     justify-content: space-around;
     margin: 0px 0 5px 0;
@@ -147,6 +146,7 @@ body {
     padding: 8px 30px;
     border: 1px solid black;
     border-radius: 15px;
+    font-family: var(--bai-jamjuree);
 }
 
 .read-more {
@@ -171,22 +171,67 @@ a {
 
 /* slutt på flexbox, begynnelsen på m*/
 
-@media screen and (max-width: 700px) {
-    body {
-        background-color: rgb(230, 252, 255);
+@media screen and (max-width: 778px) {
+
+    .parallax-home {
+        display: none;
     }
 
-    .parallax_home {}
-
-    .product_card {
-        max-width: 100%;
-        width: 100%;
-        flex-shrink: 1;
-        box-sizing: border-box;
+    .logo{
+        display: block;
+        border-bottom: 3px solid black;
+        text-align: center;
+        padding: var(--rem-spacing2);
+        font-size: 1.4rem;
+        color: #5C5B43;
+    }
+    .logo img{
+        display: block;
+        width: 70vw;
+        margin: 0 auto 2rem auto;
+        
+    }
+    .slogan-under-logo {
+        font-family: var(--bai-jamjuree);
     }
 
-    .image-and-text img {
-        width: 10vw;
-        visibility: visible;
+    .mobile-navbar {
+        position: fixed;
+        bottom: var(--rem-spacing2);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 60vw;
+        height: 6rem;
+        border-radius: 60px;
+        background: rgb(34, 193, 195);
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 126, 253, 1) 100%);
     }
+    .mobile-navbar a{
+      
+      font-size: var(--rem-spacing2);
+    }
+
+    .topnav {
+        display: none;
+        /* left: auto;
+        right: auto;
+        width: 60vw;
+        bottom: 0;
+        margin: 0 auto 2rem auto;
+        border-radius: 60px; */
+    }
+
+    /* .topnav ul {
+        border-bottom: 0;
+        
+    }
+
+    .li a {
+        font-size: 0.8rem;
+    }
+    .logo {
+        background-image: url(/media/images/logo/RainyDays_Logo.png);
+        max-width: 200px;
+    } */
 }

@@ -7,7 +7,10 @@
     <title>Home | RAINYDAYS</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/home.css">
-
+    <script src="https://kit.fontawesome.com/3ecb9b6910.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,10 +22,18 @@
                 <li><a href="/contact/">Contact</a></li>
             </ul>
         </nav>
-        <div class="logo"></div>
-        <div class="parallax-home">
+            <div class="mobile-navbar">
+                <a href="/"><i class="fa-solid fa-house"></i></a>
+                <a href="/products/"></a>
+                <a href="/about/"><i class="fa-solid fa-book"></i></a>
+                <a href="/contact/"><i class="fa-solid fa-phone"></i></a>
+                <a href="/cart/"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        <div class="parallax-home"></div> <!-- parallax basert på guide fra w3-->
+        <div class="logo">
             <img src="media/images/logo/RainyDays_Logo.png" alt="">
-        </div> <!-- hentet parallax fra w3 guide-->
+            <p class="slogan-under-logo">Your journey begins here. <br> Shop now and start pushing your comfort zone</p>
+        </div>
     </header>
     <h1 class="h1-banner">New arrivals</h1>
     <section class="showcase">
@@ -33,8 +44,8 @@
                     dolore dolores nesciunt assumenda, et voluptas ea. Doloremque laborum aliquid tempore ut explicabo
                     nostrum blanditiis!</p>
             </div>
-            <span class="product-price">$25</span>
-            <div class="buttons">
+            <span class="product-price">Price: $25</span>
+            <div class="card-buttons">
                 <a href="specific.html" class="read-more btn">Read more</a>
                 <a href="cart.html" class="add-to-cart btn">add to cart</a>
             </div>
