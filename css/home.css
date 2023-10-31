@@ -27,7 +27,7 @@
 }
 
 .product-image {
-    max-width: fit-content;
+    max-width: 100%;
     overflow: hidden;
     padding: var(--size15px) var(--rem-spacing2); */
 }
@@ -40,7 +40,7 @@
 .product-description {
     font-family: var(--bai-jamjuree);
     font-size: 0.81rem;
-    margin: 0 var(--size10px) var(--size10px) var(--size10px);
+    margin: 0 var(--size20px) var(--size10px) var(--size20px);
 
 }
 
@@ -72,6 +72,7 @@
     border-radius: 15px;
     font-family: var(--bai-jamjuree);
     margin-bottom: var(--size15px);
+
 }
 
 .read-more {
@@ -190,6 +191,6 @@ a {
         border-radius: 0;
     }
     [class^="fa-"] {
-        
+        color: black;
     }
 }
