@@ -1,40 +1,52 @@
+.parallax {
+    background-image: url("/media/images/site-decoration/test.png");
+    min-height: 45.25rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .showcase {
     display: flex;
-    flex-direction: row;
+    width: 100%;
     gap: var(--size15px);
-    justify-content: space-around;
     margin-top: var(--size15px);
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .product-card {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid #333;
+    border-radius: 15px;
     margin: var(--rem-spacing4) var(--size20px);
-
     max-width: 300px;
+    max-height: 600px;
+    text-align: center;
 }
 
 .product-image {
-    width: 100%;
-    /* margin: px 0; */
-    min-width: 200px;
-    box-sizing: border-box;
-    padding-bottom: var(--size15px);
+    max-width: fit-content;
+    overflow: hidden;
+    padding: var(--size15px) var(--rem-spacing2); */
 }
+
 .line{
     border-bottom: 1px solid grey;
     width: 100%;
 }
+
 .product-description {
     font-family: var(--bai-jamjuree);
-    box-sizing: border-box;
-    margin: 2.5rem var(--size10px) var(--size10px) var(--size10px);
+    font-size: 0.81rem;
+    margin: 0 var(--size10px) var(--size10px) var(--size10px);
 
-    padding: var(--size20px);
+}
+
+.product-description h2 {
+    margin: var(--size20px) 0 var(--rem-spacing2) 0;
+    text-decoration: underline;
 }
 
 .product-price {
@@ -43,7 +55,7 @@
     font-size: 1.2rem;
     font-weight: 600;
     color: red;
-    margin: var(--size10px) 0;
+    padding: var(--size20px) 0;
 
 }
 
@@ -51,19 +63,19 @@
     display: flex;
     justify-content: space-around;
     margin: 0px 0 5px 0;
-    flex-wrap: wrap;
-    gap: 10px;
+    /* flex-wrap: wrap; */
+    gap: var(--size10px);
 }
 
 .btn {
     padding: 8px 30px;
-    border: 1px solid black;
     border-radius: 15px;
     font-family: var(--bai-jamjuree);
+    margin-bottom: var(--size15px);
 }
 
 .read-more {
-    background-color: rgb(255, 202, 69);
+    background-color: #EFE7E2;
 }
 
 .read-more:hover {
@@ -74,7 +86,7 @@
 
 
 .add-to-cart {
-    background-color: rgb(125, 112, 78);
+    background-color: #E4D3C8;
 }
 
 a {
@@ -85,35 +97,38 @@ a {
 .rainy-info {
     display: flex;
     width: 100%;
-    align-items: center;
+    align-content: center;
     justify-content: space-around;
-    background-color: grey;
+    background-color: #bfd1d62c;
+    padding-top: var(--rem-spacing4);
+
 
 }
 
 .info-card {
     height: 25rem;
-    flex-shrink: inherit;
     font-family: var(--bai-jamjuree);
-    max-width: 100vw;
-    overflow: auto;
-    margin-right: var(--rem-spacing2);
+    max-width: 100%;
+    margin: auto var(--size20px);
+    /* overflow: hidden; */
+    
+    
 
 }
 .info-card-content {
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
+
 }
 .info-card-content img {
     height: 9.18rem;
     margin: auto var(--rem-spacing2) auto 0;
     border-radius: 50%;
+    overflow: hidden;
+    min-width: 146px;
 }
 
-.info-card-description {
-    
-}
+
 .info-card-description p {
     width: 12.5rem;
     margin-top: var(--size20px);
@@ -122,4 +137,59 @@ a {
     text-decoration: underline;
     text-align: left;
 
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1224px) {
+    .showcase {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card {
+        width: 100%;
+        margin: 1rem var(--size20px);
+    }
+
+    .rainy-info{
+        flex-direction: column;
+        align-items: center;
+      
+    
+    }
+    .info-card {
+        padding: var(--size10px);
+        height: 16.75rem;
+    
+    }
+    .info-card-content {
+        justify-content: center;
+        
+    }
+
+} 
+
+
+
+
+
+@media screen and (max-width:700px) {
+
+
+    .h1-banner {
+        background-color: transparent;
+        border-bottom: 3px solid black;
+        width: 100%;
+        padding-bottom: var(--rem-spacing2);
+        border-radius: 0;
+    }
+    [class^="fa-"] {
+        
+    }
 }

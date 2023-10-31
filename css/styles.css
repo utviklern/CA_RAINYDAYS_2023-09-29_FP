@@ -18,21 +18,20 @@
 body {
     background-color: #FBFEFF;
 }
-.stong-p {
+.stong-p-16px {
     font-weight: 800;
 }
 
-.parallax-home {
-    background-image: url("/media/images/site-decoration/test.png");
-    min-height: 45.25rem;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
+.strong-h2-20px {
+    font-weight: 800;
+    font-size: var(--size20px);
 }
 
 
+
+
 .topnav {
+    top: 0;
     position: fixed;
     width: 100%;
     background: rgb(34, 193, 195);
@@ -73,7 +72,6 @@ body {
     padding: var(--size10px) 1.2rem;
     margin-top: var(--rem-spacing2);
     padding-bottom: var(--size10px);
-    /* må få tekst til center og legge inn ikon for cart */
 }
 
 .active {
@@ -102,15 +100,19 @@ body {
 
 footer {
     height: 10rem;
-    background-color: #5C5B43;
+    background-color: #2B2B2B;
     font-family: var(--bai-jamjuree);
 }
 
-.links {
+.links  {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    color: #FBFEFF;
+}
+footer a {
+    color: #FBFEFF;
 }
 
 .links:first-child {
@@ -125,17 +127,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin: var(--size15px) var(--size15px) 0 0;
+    margin: var(--rem-spacing2) var(--size15px) 0 0;
 }
 
 
 
 
-@media screen and (max-width: 1357) {
-    .rainy-info {
-        flex-direction: column;
-    }
-} 
+
     
 
 @media screen and (max-width: 700px) {
@@ -152,14 +150,24 @@ footer {
         font-size: 1.4rem;
         color: #5C5B43;
     }
+
     .logo img{
         display: block;
         width: 70vw;
         margin: 0 auto 2rem auto;
         
     }
+
     .slogan-under-logo {
         font-family: var(--bai-jamjuree);
+    }
+
+    .h1-banner {
+        background-color: transparent;
+        border-bottom: 3px solid black;
+        width: 100%;
+        padding-bottom: var(--rem-spacing2);
+        border-radius: 0;
     }
 
     .mobile-navbar {
@@ -185,23 +193,4 @@ footer {
         display: none;
 
     }
-
-    .rainy-info{
-        flex-direction: column;
-    }
-    .info-card {
-        padding: 10px;
-    }
-
-    .h1-banner {
-        background-color: transparent;
-        border-bottom: 3px solid black;
-        width: 100%;
-        padding-bottom: var(--rem-spacing2);
-        border-radius: 0;
-    }
-    [class^="fa-"] {
-        
-    }
-
 }

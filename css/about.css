@@ -1,0 +1,73 @@
+.parallax {
+    background-image: url("/media/images/site-decoration/anthony-intraversato-za1Blqqbslw-unsplash.jpg");
+    min-height: 45.25rem;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rainy-info {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #bfd1d62c;
+    padding-top: var(--rem-spacing4);
+
+
+}
+
+.info-card {
+    height: 25rem;
+    font-family: var(--bai-jamjuree);
+    max-width: 100%;
+    margin: auto var(--size20px);
+    /* overflow: hidden; */
+    
+    
+
+}
+.info-card-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+.info-card-content img {
+    height: 9.18rem;
+    margin: auto var(--rem-spacing2) auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+    min-width: 146px;
+}
+
+
+.info-card-description p {
+    width: 12.5rem;
+    margin-top: var(--size20px);
+}
+.info-card-description h2 {
+    text-decoration: underline;
+    text-align: left;
+
+}
+
+
+@media screen and (max-width: 1224px) {
+
+    .rainy-info{
+        flex-direction: column;
+        align-items: center;
+      
+    
+    }
+    .info-card {
+        padding: var(--size10px);
+        height: 16.75rem;
+    
+    }
+    .info-card-content {
+        justify-content: center;
+        
+    }
+
+} 
