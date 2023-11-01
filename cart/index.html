@@ -1,72 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | RAINYDAYS</title>
-    <link rel="stylesheet" href="./css/cart.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="description" content="Rainydays cart page">
+    <title>Cart | RAINYDAYS</title>
+    <link rel="icon" type="image/x-icon" href="/media/images/logo/amosh-yynd1-001.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/cart.css">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/3ecb9b6910.js" crossorigin="anonymous"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 </head>
-<header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><img src="#Cart logo" alt="cartlogo"></li>
-        </ul>
-    </nav>
-    <img src="#hero" alt="hero">
-</header>
 <body>
-    <section class="selected-jackets">
-        <div class="jacket1">
-            <img src="" alt="">
-            <p></p>
-            <div class="primary-button">
-                <p>Add to cart</p>
+    <header>
+        <nav class="topnav">
+            <ul>
+                <li><img src="/media/images/logo/RainyDays_Logo.png" alt=""></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/products/">Products</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/contact/">Contact</a></li>
+                <li><a href="/cart/" class="active"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+            <div class="mobile-navbar">
+                <a href="/"><i class="fa-solid fa-house"></i></a>
+                <a href="/products/"><i class="fa-solid fa-shirt"></i></a>
+                <a href="/about/"><i class="fa-solid fa-book"></i></a>
+                <a href="/contact/"><i class="fa-solid fa-phone"></i></a>
+                <a href="/cart/" class="active"><i class="fa-solid fa-cart-shopping"></i></a>
             </div>
-            <div class="read-more-button">
-                <p>Read more</p>
+    </header>
+    <div class="h1-banner">
+        <h1>Cart</h1>
+    </div>
+    <main>
+        <div class="content-box">
+            <div class="images">
+            <img src="/media/images/products/RainyDays_Jacket2.png" alt="">
+            </div>
+            <div class="description">
+                <h2 class="heading-product-cart">
+                    XTREME bomber jacket
+                </h2>
+                <p class="description-product-cart">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, nisi error facilis perferendis quisquam doloremque iusto doloribus, id quaerat quas minima quo exercitationem explicabo qui corporis laborum fugiat? Minus, tempora!
+                </p>
+                <span class="pricetag-product-cart">25$</span>
             </div>
         </div>
-        <div class="jacket2">
-            <img src="" alt="">
-            <p></p>
-        </div>
-        <div class="jacket3">
-            <img src="" alt="">
-            <p></p>
-        </div>
-    </section>
-    <section class="info">
-        <div class="info-text">
-            <p></p>
-        </div>
-        <div class="info-card">
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
+        <a class="big-button-cart" href="checkout.html">Checkout</a>
+    </main>
 
-        </div>
-    </section>    
     <footer>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="links">
+            <a href="index.html">Home</a>       
+            <a href="products.html">Products</a>    
+            <a href="about.html">About</a>     
+            <a href="contact.html">Contact</a>
+            <!-- <div class="copyright-text"> -->
+                <p>copyright <br> 2023</p>
+            <!-- </div> -->
+        </div>
     </footer>
-</body>    
+</body>
+
 </html>
