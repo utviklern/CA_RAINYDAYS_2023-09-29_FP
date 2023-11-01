@@ -1,11 +1,36 @@
 .parallax {
-    background-image: url("/media/images/site-decoration/anthony-intraversato-za1Blqqbslw-unsplash.jpg");
+    background-image: url("/media/images/site-decoration/about/IMG_0065@0.5x.jpg");
     min-height: 45.25rem;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.about-paragraph{
+    font-family: var(--bai-jamjuree);
+    font-size: 1.5rem;
+    margin: var(--rem-spacing6);
+}
+
+.about-description-image {
+    background-image: url("/media/images/site-decoration/about/bergen_blurred.jpg");
+    min-height: 40.25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slogan {
+    text-align: center;
+    background-color: #d9d9d9;
+    min-height: 20rem;
+    padding: ;
+    width: auto;
+    padding: 10px;
+}
+
+
 .rainy-info {
     display: flex;
     width: 100%;

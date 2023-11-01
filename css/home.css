@@ -102,6 +102,7 @@ a {
     justify-content: space-around;
     background-color: #bfd1d62c;
     padding-top: var(--rem-spacing4);
+    flex-wrap: wrap;
 
 
 }
@@ -110,8 +111,8 @@ a {
     height: 25rem;
     font-family: var(--bai-jamjuree);
     max-width: 100%;
-    margin: auto var(--size20px);
-    /* overflow: hidden; */
+    
+    overflow: hidden;
     
     
 
@@ -127,6 +128,7 @@ a {
     border-radius: 50%;
     overflow: hidden;
     min-width: 146px;
+
 }
 
 
@@ -158,10 +160,6 @@ a {
         margin: 1rem var(--size20px);
     }
 
-    .rainy-info{
-        flex-direction: column;
-        align-items: center;
-      
     
     }
     .info-card {
@@ -174,7 +172,12 @@ a {
         
     }
 
-} 
+    .info-card img {
+        height: 130px;
+        width: 130px;
+    }
+
+
 
 
 
@@ -182,6 +185,10 @@ a {
 
 @media screen and (max-width:700px) {
 
+    .info-card {
+        padding: var(--size10px) 0;
+        height: 16.75rem;
+    }
 
     .h1-banner {
         background-color: transparent;
