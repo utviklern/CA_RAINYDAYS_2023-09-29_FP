@@ -228,7 +228,7 @@ footer a {
     [class^="fa-"] {
         color: black;
     /* selected all icons in navbar and sat color to black */
-
+    }
    
     .topnav {
         display: none;
