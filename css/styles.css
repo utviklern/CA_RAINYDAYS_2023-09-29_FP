@@ -34,7 +34,11 @@ body {
     font-weight: 800;
     font-size: var(--size20px);
 }
-
+.about-paragraph{
+    font-family: var(--bai-jamjuree);
+    font-size: 1.5rem;
+    margin: var(--rem-spacing6);
+}
 
 
 
@@ -109,6 +113,13 @@ body {
     font-family: var(--inter);
 }
 
+.slogan {
+    text-align: center;
+    background-color: #d9d9d9;
+    min-height: 20rem;
+    width: auto;
+    padding: 10px;
+}
 
 
 footer {
