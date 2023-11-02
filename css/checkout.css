@@ -1,0 +1,61 @@
+body {
+    margin-top: 10rem;
+}
+
+h2 {
+    margin: var(--rem-spacing4) 0;
+    font-family: var(--bai-jamjuree);
+    text-align: center;
+}
+
+/* .form-user-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: var(--bai-jamjuree);
+    list-style-type: none;
+} */
+
+form {
+    margin: var(--rem-spacing4) auto var(--rem-spacing4) auto;
+    width: 25rem;
+    max-height: auto;
+}
+
+form ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    font-family: var(--bai-jamjuree);
+    font-size: 1.2rem;
+}
+
+
+input {
+    padding: 0.7rem 1rem;
+    border-radius: 15px;
+    border: 1px solid grey;
+    max-width: 280px;
+    margin: 1rem 0rem;
+    text-align: left;
+}
+
+.pay-now-btn {
+    max-width: 15rem;
+    font-family: var(--bai-jamjuree);
+    font-size: 1.2rem;
+    color: black;
+    background-color: #0AC783;
+    padding: 1rem var(--rem-spacing4);
+    border-radius: 100px;
+
+}

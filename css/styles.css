@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 :root {
     /* legge inn font til slogan under logo  */
     --bai-jamjuree: 'Bai Jamjuree', sans-serif;
@@ -21,7 +23,20 @@ body {
     background-color: #FBFEFF;
 }
 
-/* some classes i use in different places */
+/* some rules and classes i use in different places */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
 .stong-p-16px {
     font-weight: 900;
 }
@@ -36,12 +51,21 @@ body {
     font-weight: 800;
     font-size: var(--size20px);
 }
-.about-paragraph{
+
+.about-paragraph {
     font-family: var(--bai-jamjuree);
     font-size: 1.5rem;
     margin: var(--rem-spacing6) var(--rem-spacing4);
 }
 
+.span-price {
+    margin: 0 auto;
+    font-family: var(--bai-jamjuree);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: red;
+    padding: var(--size20px) 0;
+}
 
 /* navbar desktop */
 
@@ -63,7 +87,7 @@ body {
     text-align: center;
     padding: 0.8rem 0;
     border-bottom: 3px solid black;
-    height: 5rem;
+    height: 7rem;
     flex-wrap: nowrap;
     display: flex;
     justify-content: space-around;
@@ -72,10 +96,6 @@ body {
 .topnav ul li {
     display: inline-flex;
     align-items: space-between;
-}
-
-.topnav ul li a:visited {
-    color: black;
 }
 
 
@@ -89,22 +109,26 @@ body {
     padding: var(--size10px) 1.2rem;
     margin-top: var(--rem-spacing2);
     padding-bottom: var(--size10px);
-    
+
 }
 
 .topnav ul:first-child {
     margin-top: 0;
 }
+
 /* ____________________________________________ */
 .active {
     text-decoration: none;
     border-bottom: 4px solid black;
 
 }
+
 /* navbar mobile (more in media queries */
-.mobile-navbar, .logo {
-    display: none; 
+.mobile-navbar,
+.logo {
+    display: none;
 }
+
 /* ____________________________________________ */
 
 .h1-banner {
@@ -127,6 +151,7 @@ body {
     width: auto;
     padding: 10px;
 }
+
 /* ____________________________________________ */
 
 /* footer */
@@ -139,16 +164,15 @@ footer {
     bottom: 0;
 }
 
-.footer-links  {
+.footer-links,
+.footer-links a {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
     color: #FBFEFF;
 }
-footer a {
-    color: #FBFEFF;
-}
+
 
 .footer-links:first-child {
     margin-left: var(--rem-spacing4);
@@ -164,12 +188,13 @@ footer a {
     align-items: flex-end;
     margin: var(--rem-spacing2) var(--size15px) 0 0;
 }
+
 /* ____________________________________________ */
 
 
 
 
-    
+
 
 @media screen and (max-width: 700px) {
 
@@ -177,7 +202,7 @@ footer a {
         display: none;
     }
 
-    .logo{
+    .logo {
         display: block;
         border-bottom: 3px solid black;
         text-align: center;
@@ -186,27 +211,29 @@ footer a {
         color: #5C5B43;
     }
 
-    .logo img{
+    .logo img {
         display: block;
         width: 70vw;
         margin: 0 auto 2rem auto;
-        
     }
 
     .slogan-under-logo {
         font-family: var(--bai-jamjuree);
     }
+
     /* disabled parallax and put in a logo an slogan for rainydays */
 
-    .h1-banner { 
+    .h1-banner {
         background-color: transparent;
         border-bottom: 3px solid black;
         width: 100%;
         padding-bottom: var(--rem-spacing2);
         border-radius: 0;
-    }/* removed background color of banner and added a "line"*/
+    }
 
-     /* remake of navbar.  */
+    /* removed background color of banner and added a "line"*/
+
+    /* remake of navbar.  */
     .mobile-navbar {
         position: fixed;
         bottom: var(--rem-spacing2);
@@ -220,25 +247,23 @@ footer a {
         border-radius: 60px;
         background: rgb(34, 193, 195);
         background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 126, 253, 1) 100%);
-        
     }
 
-    .mobile-navbar a{
-      font-size: var(--rem-spacing2);
-      padding: 0 2rem;
+    .mobile-navbar a {
+        font-size: var(--rem-spacing2);
+        padding: 0 2rem;
     }
-
 
     [class^="fa-"] {
         color: black;
-    /* selected all icons in navbar and sat color to black */
+        /* selected all icons in navbar and sat color to black */
     }
-   
+
     .topnav {
         display: none;
 
     }
-    
+
     .footer {
         height: 20rem;
     }
