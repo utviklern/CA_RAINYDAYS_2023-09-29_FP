@@ -86,14 +86,13 @@ a:visited {
 
 .topnav {
     top: 0;
-    position: fixed;
+    position: sticky;
     width: 100%;
     background: rgb(34, 193, 195);
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 126, 253, 1) 100%);
 }
 
 .topnav img {
-    position: static;
     width: 9rem;
 }
 
