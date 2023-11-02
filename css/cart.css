@@ -41,6 +41,7 @@ main {
 .heading-product-cart {
     font-size: 2rem;
     text-decoration: underline;
+    font-weight: 800;
 }
 
 .pricetag-product-cart{
