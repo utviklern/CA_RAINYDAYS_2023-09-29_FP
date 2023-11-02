@@ -9,9 +9,9 @@
 
 .showcase {
     display: flex;
-    width: 100%;
-    gap: var(--size15px);
-    margin-top: var(--size15px);
+    column-gap: var(--size15px);
+    row-gap: var(--rem-spacing2);
+    margin: var(--rem-spacing4) var(--rem-spacing2);
     justify-content: space-around;
 }
 
@@ -20,16 +20,15 @@
     flex-direction: column;
     border: 1px solid #333;
     border-radius: 15px;
-    margin: var(--rem-spacing4) var(--size20px);
     max-width: 300px;
-    max-height: 600px;
     text-align: center;
 }
 
 .product-image {
     max-width: 100%;
     overflow: hidden;
-    padding: var(--size15px) var(--rem-spacing2); 
+    padding: var(--size15px) var(--rem-spacing2);
+    flex-shrink: 0;
 }
 
 .line{
@@ -55,7 +54,7 @@
     display: flex;
     justify-content: space-around;
     margin: 0px 0 5px 0;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: var(--size10px);
 }
 
@@ -131,18 +130,7 @@
 
 
 @media screen and (max-width: 1224px) {
-    .showcase {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .product-card {
-        width: 100%;
-        margin: 1rem var(--size20px);
-    }
-
-    
-    
     .info-card {
         padding: var(--size10px);
         height: 16.75rem;
@@ -168,7 +156,16 @@
 }
 
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 765px) {
+
+
+    .showcase {
+        flex-direction: column;
+    }
+    .product-card {
+        max-width: 100%;
+    }
 
     .info-card {
         padding: var(--size10px) 0;
