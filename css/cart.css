@@ -47,7 +47,9 @@ main {
     font-weight: 800;
     font-size: 2rem;
 }
-
+#description-product-cart {
+    text-align: left;
+}
 .big-button-cart {
     font-family: var(--bai-jamjuree);
     font-size: 2rem;

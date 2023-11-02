@@ -55,7 +55,7 @@ body {
 
 .topnav img {
     position: static;
-    width: 100px;
+    width: 9rem;
 }
 
 .topnav ul {
@@ -78,9 +78,6 @@ body {
     color: black;
 }
 
-.topnav ul li:last-child { 
-    margin: 0;
-}
 
 .topnav ul li a {
     font-size: 1.2rem;
@@ -92,6 +89,11 @@ body {
     padding: var(--size10px) 1.2rem;
     margin-top: var(--rem-spacing2);
     padding-bottom: var(--size10px);
+    
+}
+
+.topnav ul:first-child {
+    margin-top: 0;
 }
 /* ____________________________________________ */
 .active {
@@ -114,7 +116,7 @@ body {
     margin-top: 1.25rem;
     padding: 0.4rem 0;
     border-radius: 0.93rem;
-    font-family: var(--inter);
+    font-family: var(--bai-jamjuree);
 }
 
 /* slogan div */
@@ -137,7 +139,7 @@ footer {
     bottom: 0;
 }
 
-.links  {
+.footer-links  {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -148,11 +150,11 @@ footer a {
     color: #FBFEFF;
 }
 
-.links:first-child {
+.footer-links:first-child {
     margin-left: var(--rem-spacing4);
 }
 
-.links:last-child {
+.footer-links:last-child {
     margin-right: var(--rem-spacing4);
 }
 

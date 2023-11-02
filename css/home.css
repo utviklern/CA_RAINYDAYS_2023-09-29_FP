@@ -29,7 +29,7 @@
 .product-image {
     max-width: 100%;
     overflow: hidden;
-    padding: var(--size15px) var(--rem-spacing2); */
+    padding: var(--size15px) var(--rem-spacing2); 
 }
 
 .line{
@@ -50,13 +50,11 @@
 }
 
 .product-price {
-
     font-family: var(--bai-jamjuree);
     font-size: 1.2rem;
     font-weight: 600;
     color: red;
     padding: var(--size20px) 0;
-
 }
 
 .card-buttons {
@@ -72,7 +70,6 @@
     border-radius: 15px;
     font-family: var(--bai-jamjuree);
     margin-bottom: var(--size15px);
-
 }
 
 .read-more {
@@ -103,39 +100,33 @@ a {
     background-color: #bfd1d62c;
     padding-top: var(--rem-spacing4);
     flex-wrap: wrap;
-
-
 }
 
 .info-card {
     height: 25rem;
     font-family: var(--bai-jamjuree);
     max-width: 100%;
-    
     overflow: hidden;
-    
-    
-
 }
+
 .info-card-content {
     display: flex;
     justify-content: space-between;
-
 }
+
 .info-card-content img {
     height: 9.18rem;
     margin: auto var(--rem-spacing2) auto 0;
     border-radius: 50%;
     overflow: hidden;
     min-width: 146px;
-
 }
-
 
 .info-card-description p {
     width: 12.5rem;
     margin-top: var(--size20px);
 }
+
 .info-card-description h2 {
     text-decoration: underline;
     text-align: left;
@@ -161,7 +152,7 @@ a {
     }
 
     
-    }
+    
     .info-card {
         padding: var(--size10px);
         height: 16.75rem;
@@ -176,14 +167,18 @@ a {
         height: 130px;
         width: 130px;
     }
+}
 
 
 
+@media screen and (max-width: 810px) {
+    .rainy-info {
+        flex-direction: column;
+    }
+}
 
 
-
-
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
 
     .info-card {
         padding: var(--size10px) 0;
