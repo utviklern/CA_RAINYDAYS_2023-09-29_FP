@@ -16,8 +16,7 @@ h2 {
 
 form {
     margin: var(--rem-spacing4) auto var(--rem-spacing4) auto;
-    width: 25rem;
-    max-height: auto;
+
 }
 
 form ul {
