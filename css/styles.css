@@ -162,7 +162,7 @@ a:visited {
 
 .topnav ul li {
     display: inline-flex;
-    align-items: space-between;
+    align-items: center;
 }
 
 
@@ -174,7 +174,7 @@ a:visited {
     display: inline-block;
     text-align: center;
     padding: var(--size10px) 1.2rem;
-    margin-top: var(--rem-spacing2);
+    /* margin-top: var(--rem-spacing2); */
     padding-bottom: var(--size10px);
     font-family: var(--bai-jamjuree);
 
