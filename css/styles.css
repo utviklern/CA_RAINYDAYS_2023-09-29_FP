@@ -176,6 +176,7 @@ a:visited {
     padding: var(--size10px) 1.2rem;
     margin-top: var(--rem-spacing2);
     padding-bottom: var(--size10px);
+    font-family: var(--bai-jamjuree);
 
 }
 
