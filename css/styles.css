@@ -52,7 +52,11 @@ a:visited {
     font-size: var(--size20px);
 }
 
-
+.about-paragraph {
+    font-family: var(--bai-jamjuree);
+    font-size: 1.5rem;
+    margin: var(--rem-spacing6) var(--rem-spacing4);
+}
 
 .bold24px {
     font-family: var(--bai-jamjuree);
