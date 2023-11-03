@@ -23,6 +23,9 @@ body {
     background-color: #FBFEFF;
 }
 
+
+
+
 /* some rules and classes i use in different places */
 a {
     text-decoration: none;
@@ -81,6 +84,54 @@ a:visited {
 .top-space-1rem {
     margin-top: 1rem;
 }
+/* end */
+
+
+
+/* info card */
+.rainy-info {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #bfd1d62c;
+    padding: var(--rem-spacing4) 0;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    /* max-height: 25rem; */
+    font-family: var(--bai-jamjuree);
+    max-width: 100%;
+}
+
+.info-card-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-card-content img {
+    height: 9.18rem;
+    margin: auto var(--rem-spacing2) auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+    min-width: 146px;
+}
+
+.info-card-description p {
+    max-width: 12.5rem;
+    margin-top: var(--size20px);
+}
+
+.info-card-description h2 {
+    text-decoration: underline;
+    text-align: left;
+
+}
+
+/* end */
+
+
 
 /* navbar desktop */
 
@@ -129,21 +180,26 @@ a:visited {
 .topnav ul:first-child {
     margin-top: 0;
 }
+/* end */
 
-/* ____________________________________________ */
+
+
+/* active class på navbar*/
 .active {
     text-decoration: none;
     border-bottom: 4px solid black;
-
 }
+/* end */
+
 
 /* navbar mobile (more in media queries */
 .mobile-navbar,
 .logo {
     display: none;
 }
+/* end */
 
-/* ____________________________________________ */
+
 
 .h1-banner {
     background-color: rgb(223, 252, 216);
@@ -157,6 +213,8 @@ a:visited {
     font-family: var(--bai-jamjuree);
 }
 
+
+
 /* slogan div */
 .slogan {
     text-align: center;
@@ -166,7 +224,9 @@ a:visited {
     padding: 10px;
 }
 
-/* ____________________________________________ */
+/* end */
+
+
 
 /* footer */
 footer {
@@ -195,7 +255,7 @@ footer {
     margin: var(--rem-spacing2) var(--size15px) 0 0;
 }
 
-/* ____________________________________________ */
+/* end */
 
 
 @media screen and (max-width: 1224px) {
@@ -208,7 +268,7 @@ footer {
     }
     .info-card {
         padding: var(--size10px);
-        height: 16.75rem;
+        /* height: 16.75rem; */
     
     }
     .info-card-content {
@@ -216,7 +276,14 @@ footer {
         
     }
 
+    .info-card img {
+        height: 130px;
+        width: 130px;
+    }
 } 
+
+
+
 
 
 
@@ -291,4 +358,6 @@ footer {
     .footer {
         height: 20rem;
     }
+
+   
 }

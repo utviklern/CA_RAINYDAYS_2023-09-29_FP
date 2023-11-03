@@ -81,46 +81,6 @@
 }
 
 
-.rainy-info {
-    display: flex;
-    width: 100%;
-    align-content: center;
-    justify-content: space-around;
-    background-color: #bfd1d62c;
-    padding-top: var(--rem-spacing4);
-    flex-wrap: wrap;
-}
-
-.info-card {
-    height: 25rem;
-    font-family: var(--bai-jamjuree);
-    max-width: 100%;
-    overflow: hidden;
-}
-
-.info-card-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.info-card-content img {
-    height: 9.18rem;
-    margin: auto var(--rem-spacing2) auto 0;
-    border-radius: 50%;
-    overflow: hidden;
-    min-width: 146px;
-}
-
-.info-card-description p {
-    width: 12.5rem;
-    margin-top: var(--size20px);
-}
-
-.info-card-description h2 {
-    text-decoration: underline;
-    text-align: left;
-
-}
 
 
 
@@ -129,31 +89,7 @@
 
 
 
-@media screen and (max-width: 1224px) {
 
-    .info-card {
-        padding: var(--size10px);
-        height: 16.75rem;
-    
-    }
-    .info-card-content {
-        justify-content: center;
-        
-    }
-
-    .info-card img {
-        height: 130px;
-        width: 130px;
-    }
-}
-
-
-
-@media screen and (max-width: 810px) {
-    .rainy-info {
-        flex-direction: column;
-    }
-}
 
 
 
@@ -166,12 +102,7 @@
     .product-card {
         max-width: 100%;
     }
-
-    .info-card {
-        padding: var(--size10px) 0;
-        height: 16.75rem;
-    }
-
+    
     .h1-banner {
         background-color: transparent;
         border-bottom: 3px solid black;
