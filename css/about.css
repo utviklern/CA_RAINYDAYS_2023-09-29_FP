@@ -17,6 +17,12 @@
     background-position: center;
 }
 
+.about-paragraph {
+    font-family: var(--bai-jamjuree);
+    font-size: 1.5rem;
+    margin: var(--rem-spacing6) var(--rem-spacing4);
+}
+
 .rainy-info {
     display: flex;
     width: 100%;
@@ -63,22 +69,12 @@
 }
 
 
-@media screen and (max-width: 1224px) {
 
-    .rainy-info{
-        flex-direction: column;
-        align-items: center;
-      
-    
-    }
-    .info-card {
-        padding: var(--size10px);
-        height: 16.75rem;
-    
-    }
-    .info-card-content {
-        justify-content: center;
-        
-    }
 
-} 
+@media screen and (max-width: 400px) {
+
+
+    .about-paragraph {
+        font-size: 1.1rem;
+    }
+}
