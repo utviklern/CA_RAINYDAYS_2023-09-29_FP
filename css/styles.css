@@ -181,20 +181,12 @@ footer {
 .footer-links,
 .footer-links a {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     color: #FBFEFF;
 }
 
-
-.footer-links:first-child {
-    margin-left: var(--rem-spacing4);
-}
-
-.footer-links:last-child {
-    margin-right: var(--rem-spacing4);
-}
 
 .copyright-text {
     display: flex;
