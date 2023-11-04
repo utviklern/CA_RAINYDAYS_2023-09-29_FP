@@ -367,5 +367,8 @@ footer {
         height: 20rem;
     }
 
+    .about-paragraph {
+        margin: var(--rem-spacing4);
+    }
 
 }
