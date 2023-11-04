@@ -124,7 +124,5 @@
         padding-bottom: var(--rem-spacing2);
         border-radius: 0;
     }
-    [class^="fa-"] {
-        color: black;
-    }
+
 }

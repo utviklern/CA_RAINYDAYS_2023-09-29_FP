@@ -194,6 +194,16 @@ a:visited {
     border-bottom: 4px solid black;
 }
 
+
+
+.active-mobile {
+    color: #FDFFB4;
+    border-bottom: 4px solid #FDFFB4;
+}
+
+.active-mobile:visited {
+    color: #FDFFB4;
+}
 /* end */
 
 
@@ -353,10 +363,7 @@ footer {
         font-size: var(--rem-spacing2);
     }
 
-    [class^="fa-"] {
-        color: black;
-        /* selected all icons in navbar and sat color to black */
-    }
+    
 
     .topnav {
         display: none;
