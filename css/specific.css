@@ -6,7 +6,7 @@
     justify-content: center;
     background-color: #e8c1c167;
     border-radius: var(--size15px);
-    padding-right: 4rem;
+    padding-right: var(--rem-spacing4);
 }
 
 #specific-image {
@@ -41,7 +41,7 @@
 #description-product-specific{
     margin: 0 var(--rem-spacing2) var(--rem-spacing2) 0;
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    margin-bottom: var(--rem-spacing2);
 }
 
 #pricetag-product-specific{
@@ -79,7 +79,7 @@
     font-size: 2rem;
     font-weight: 800;
     border-bottom: 2px solid black;
-    margin-bottom: 4rem;
+    margin-bottom: var(--rem-spacing4);
 }
 
 
@@ -113,7 +113,7 @@
         align-items: center;
     }
     #specific-image img {
-        margin-top: 2rem;
+        margin-top: var(--rem-spacing2);
         max-height: 20rem;
     }
 

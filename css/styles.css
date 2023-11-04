@@ -12,10 +12,11 @@
     --rem-spacing2: 2rem;
     --rem-spacing4: 4rem;
     --rem-spacing6: 6rem;
-    --size15px: 0.937rem;
     --size10px: 0.625rem;
-    --size40px: 2.5rem;
+    --size15px: 0.937rem;
     --size20px: 1.25rem;
+    --size24px: 1.5rem;
+    --size40px: 2.5rem;
 
 
 }
@@ -58,19 +59,19 @@ a:visited {
 
 .about-paragraph {
     font-family: var(--bai-jamjuree);
-    font-size: 1.5rem;
+    font-size: var(--size24px);
     margin: var(--rem-spacing6) var(--rem-spacing4);
 }
 
 .bold24px {
     font-family: var(--bai-jamjuree);
-    font-size: 1.5rem;
+    font-size: var(--size24px);
     font-weight: 800;
 }
 
 .medium24px {
     font-family: var(--bai-jamjuree);
-    font-size: 1.5rem;
+    font-size: var(--size24px);
     font-weight: 500;
 }
 
@@ -117,7 +118,7 @@ a:visited {
     margin: auto var(--rem-spacing2) auto 0;
     border-radius: 50%;
     overflow: hidden;
-    min-width: 146px;
+    min-width: 9.125rem;
 }
 
 .info-card-description p {
@@ -223,7 +224,7 @@ a:visited {
     margin-left: auto;
     margin-right: auto;
     width: 15.6rem;
-    margin-top: 1.25rem;
+    margin-top: var(--size20px);
     padding: 0.4rem 0;
     border-radius: 0.93rem;
     font-family: var(--bai-jamjuree);
@@ -263,6 +264,9 @@ footer {
     color: #FBFEFF;
 }
 
+.mobile-footer {
+    display: none;
+}
 
 .copyright-text {
     display: flex;
@@ -285,8 +289,6 @@ footer {
 
     .info-card {
         padding: var(--size10px);
-        /* height: 16.75rem; */
-
     }
 
     .info-card-content {
@@ -308,6 +310,10 @@ footer {
 @media screen and (max-width: 700px) {
 
     .parallax {
+        display: none;
+    }
+
+    .topnav {
         display: none;
     }
 
@@ -353,7 +359,7 @@ footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 6rem;
+        height: var(--rem-spacing6);
         border-radius: 60px;
         background: rgb(34, 193, 195);
         background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 126, 253, 1) 100%);
@@ -363,15 +369,30 @@ footer {
         font-size: var(--rem-spacing2);
     }
 
-    
-
-    .topnav {
+    .footer-links {
         display: none;
-
     }
 
     .footer {
-        height: 20rem;
+        height: 25rem;
+        padding: var(--rem-spacing4) var(--rem-spacing6);
+    }
+
+    .mobile-footer {
+        display: block;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        border: 1px solid white;
+        text-align: center;
+    }
+
+    .footer-content >* {
+        color: white;
+        
     }
 
     .about-paragraph {
