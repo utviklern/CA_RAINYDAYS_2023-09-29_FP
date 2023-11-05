@@ -30,3 +30,10 @@ Jeg har tatt utganspunkt i respnsivness helt ned til iPhone SE med width på 375
 * Å spesifisere height utenom veldig spesifikke ting som eks bilder, er en dårlig ide.
 
 På https://wave.webaim.org har jeg fått warning for at beskrivelsen av linker er vanskelig å tolke ut av kontekst, da aria er lik på footer og topnav. jeg ser ikke på dette som en feil. 
+
+
+### kilder
+* https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text
+* https://cssgenerator.org/box-shadow-css-generator.html
+* https://nekocalc.com/px-to-rem-converter
+* 

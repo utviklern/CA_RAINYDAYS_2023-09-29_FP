@@ -1,10 +1,23 @@
 .parallax {
     background-image: url("/media/images/site-decoration/kamil-kalbarczyk-lY11p3yNVxE-unsplash.jpg");
-    min-height: 40rem;
+    min-height: 35rem;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+}
+#desktop-slogan-products {
+    display: flex;
+    justify-content: right;
+    font-family: var(--new-tegomin);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #D8D8D8;
+    padding: 20rem var(--rem-spacing4) var(--rem-spacing2) var(--rem-spacing4);
+    font-size: 2rem;
+    text-align: center;
+
 }
 
 #products{
@@ -93,12 +106,20 @@
 /* end */
 
 /* media */
+@media screen and (max-width: 1308px){
+    #desktop-slogan-products {
+        justify-content: center;
+        padding-top: 28rem;
+    }
+}
+
 @media screen and (max-width: 920px) {
     #products {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
 }
 
 @media screen and (max-width: 500px) {
