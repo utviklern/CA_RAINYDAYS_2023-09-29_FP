@@ -11,7 +11,7 @@ ___________________________________________________________
 # Rapport
 
 
-Jeg startet med å lage oppbyggingen av siden og Figma design så langt det lot seg gjøre. Jeg har lært mye bedre hvordan man skal designe og strukturere nettsider gjennom dette prosjektet. Enkelte valg jeg tok i Figma hadde krevd en total omgjøring av oppbyggingen på hele siden, noe som er utrolig mye jobb.
+Jeg startet med å lage oppbyggingen av siden og Figma design så langt det lot seg gjøre. Jeg har lært mye bedre hvordan man skal designe og strukturere nettsider gjennom dette prosjektet. 
 
 Jeg har tatt utganspunkt i respnsivness helt ned til iPhone SE med width på 375px. de fleste sidene funker uten noe som helst vertikal scroll ned til 317px. 
 
@@ -29,7 +29,7 @@ Jeg har tatt utganspunkt i respnsivness helt ned til iPhone SE med width på 375
 
 * Å spesifisere height utenom veldig spesifikke ting som eks bilder, er en dårlig ide.
 
-På https://wave.webaim.org har jeg fått warning for at beskrivelsen av linker er vanskelig å tolke ut av kontekst, da aria er lik på footer og topnav. jeg ser ikke på dette som en feil. 
+På https://wave.webaim.org har jeg fått warning for at beskrivelsen av linker er vanskelig å tolke ut av kontekst, da aria er lik på footer og topnav. De sier også at kontrasten på slogan over parallax bilder har for lav kontrast. Jeg ser ikke på dette som en feil. 
 
 
 ### kilder
