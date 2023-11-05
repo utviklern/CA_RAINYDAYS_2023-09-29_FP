@@ -2,7 +2,7 @@
  
 Netlify link: 
 
-https://fastidious-donut-56fc71.netlify.app/
+https://rainydaysstore.netlify.app/
 
 ___________________________________________________________
 
