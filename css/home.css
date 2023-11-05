@@ -22,6 +22,10 @@
     border-radius: 15px;
     max-width: 22rem;
     text-align: center;
+    transition: transform .4s;
+}
+.product-card:hover {
+    transform: scale(1.05)
 }
 
 .product-image {
