@@ -28,3 +28,5 @@ Jeg har tatt utganspunkt i respnsivness helt ned til iPhone SE med width på 375
 * Hvis man har position fixed må man ha left:0 og right:0 for at man kan ta "calc" for å width med vw.
 
 * Å spesifisere height utenom veldig spesifikke ting som eks bilder, er en dårlig ide.
+
+På https://wave.webaim.org har jeg fått warning for at beskrivelsen av linker er vanskelig å tolke ut av kontekst, da aria er lik på footer og topnav. jeg ser ikke på dette som en feil. 
