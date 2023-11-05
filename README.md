@@ -13,7 +13,7 @@ ___________________________________________________________
 
 Jeg startet med å lage oppbyggingen av siden og Figma design så langt det lot seg gjøre. Jeg har lært mye bedre hvordan man skal designe og strukturere nettsider gjennom dette prosjektet. 
 
-Jeg har tatt utganspunkt i respnsivness helt ned til iPhone SE med width på 375px. de fleste sidene funker uten noe som helst vertikal scroll ned til 317px. 
+Jeg har tatt utganspunkt i respnsivness helt ned til iPhone SE med width på 375px. de fleste sidene funker uten noe som helst vertikal scroll ned til 317px. jeg valgte å skrive diverse mål i rem, siden alt vil scale bra hvis siden blir brukt av noen som har satt default font størrelse i browser.
 
 
 
