@@ -192,7 +192,12 @@ a:visited {
     /* margin-top: var(--rem-spacing2); */
     padding-bottom: var(--size10px);
     font-family: var(--bai-jamjuree);
+    transition: transform .4s;
 
+}
+
+.topnav ul li a:hover {
+    transform: scale(1.10);
 }
 
 .topnav ul:first-child {

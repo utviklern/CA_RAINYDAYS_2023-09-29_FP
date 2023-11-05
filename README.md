@@ -15,7 +15,7 @@ Jeg startet med å lage oppbyggingen av siden og Figma design så langt det lot 
 
 Jeg har tatt utganspunkt i respnsivness helt ned til iPhone SE med width på 375px. de fleste sidene funker uten noe som helst vertikal scroll ned til 317px. 
 
-
+noe jeg ikke finner ut av er hvordan å få elementer som scaler ved hover til å oppføre seg normalt. jeg har satt ett eksempel på produkt siden. hvis man hoverer over produktbildet vil den scale normalt. hvis man da scroller vil produktbildet gå over navbaren.
 
 
 
