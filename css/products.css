@@ -17,7 +17,6 @@
     padding: 20rem var(--rem-spacing4) var(--rem-spacing2) var(--rem-spacing4);
     font-size: 2rem;
     text-align: center;
-
 }
 
 #products{
@@ -28,8 +27,8 @@
     flex-wrap: wrap;
     padding: var(--rem-spacing4);
     margin-bottom: var(--rem-spacing4);
-
 }
+
 .product-card-product {
     display: flex;
     max-width: 23.13rem;
@@ -39,9 +38,6 @@
     box-shadow: 4px 4px 10px 3px rgba(0,0,0,0.51);
     padding: 1rem;
 }
-
-
-
 
 .images {
     display: flex;
@@ -62,7 +58,6 @@
     max-height: 12rem;
     border-radius: var(--size15px);
     margin: 0 auto
-    
 }
 
 
