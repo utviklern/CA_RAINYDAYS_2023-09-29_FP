@@ -69,7 +69,7 @@
 }
 
 #product-specs ul {
-    margin-bottom: var(--rem-spacing4);
+    margin: 0 0 var(--rem-spacing4) 1rem;
 }
 
 #product-specs li{
