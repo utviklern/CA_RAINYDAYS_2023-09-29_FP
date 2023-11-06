@@ -72,6 +72,10 @@
     margin: 0 0 var(--rem-spacing4) 1rem;
 }
 
+#product-specs-right ul {
+    margin-left: 1.5rem;
+}
+
 #product-specs li{
     margin-top: 1rem;
     
