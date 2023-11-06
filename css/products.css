@@ -37,6 +37,11 @@
     border-radius: 15px;
     box-shadow: 4px 4px 10px 3px rgba(0,0,0,0.51);
     padding: 1rem;
+    transition: transform 0.5s;
+}
+
+.product-card-product:hover {
+    transform: scale(1.01);
 }
 
 .images {
@@ -67,6 +72,7 @@
     font-weight: 800;
     margin: var(--size10px) auto var(--size10px) auto;
     text-align: center;
+    font-family: var(--bai-jamjuree);
 }
 
 
