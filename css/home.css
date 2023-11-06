@@ -104,12 +104,6 @@
         max-width: 100%;
     }
     
-    .h1-banner {
-        background-color: transparent;
-        border-bottom: 3px solid black;
-        width: 100%;
-        padding-bottom: var(--rem-spacing2);
-        border-radius: 0;
-    }
+
 
 }

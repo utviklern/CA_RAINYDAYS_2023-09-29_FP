@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: var(--rem-spacing4);
+}
+
+#content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: var(--rem-spacing2) 0;
+    max-width: 37.5rem;
+    max-height: 28.75rem;
+    align-items: center;
+}
+#content-box img {
+    max-width: 30rem;
+}
+
+#continue-shopping-btn {
+    font-family: var(--bai-jamjuree);
+    font-size: 1rem;
+    margin-bottom: var(--rem-spacing4);
+    text-decoration: none;
+    color: black;
+    background-color: #E4D3Ca;
+    padding: 1rem var(--rem-spacing2);
+    border-radius: 100px;
+}
+
+#complete-text {
+    font-family: var(--new-tegomin);
+    font-size: 2.1rem;
+    text-align: center;
+    margin-top: var(--rem-spacing2);
+}
+.h1-banner {
+    margin-top: var(--rem-spacing2);
+}
