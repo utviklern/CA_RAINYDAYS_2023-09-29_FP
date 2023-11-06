@@ -12,11 +12,15 @@ ___________________________________________________________
 
 ### Generelt
 
-Jeg startet med å lage oppbyggingen av siden. jeg fulgte Figma designet så langt det lot seg gjøre. Jeg har lært mye bedre hvordan man skal designe og strukturere nettsider gjennom dette prosjektet, noe som er veldig bra for fremtidige prosjekter. Jeg droppet "tilbake" knapp på produkt spesifikk side, siden knappen hadde krevd JS som ikke er lov i dette prosjektet. Dette resulterte igjen at det ikke ble 3 forksjellige produktspesifikke sider på mobilutgave. ellers er det meste tilnærmet likt figma.
+Jeg startet med å lage oppbyggingen av siden. jeg fulgte Figma designet så langt det lot seg gjøre. Jeg har lært mye bedre hvordan man skal designe og strukturere nettsider gjennom dette prosjektet, noe som er veldig bra for fremtidige prosjekter. 
+
+Jeg droppet "tilbake" knapp på produkt spesifikk side, siden knappen hadde krevd JS som ikke er lov i dette prosjektet. Dette resulterte igjen at det ikke ble 3 forksjellige produktspesifikke sider på mobilutgave. ellers er det meste tilnærmet likt figma.
 
 
 ### Responsivness
-Jeg har tatt utganspunkt i respnsivness helt ned til iPhone SE med width på 375px. de fleste sidene funker uten noe som helst vertikal scroll ned til 317px. Jeg valgte å skrive diverse mål i rem, siden alt vil scale bra hvis siden blir brukt av noen som har satt default font størrelse i browser. Underveis har jeg kjørt validering via https://wave.webaim.org har jeg fått warning for at beskrivelsen av linker er vanskelig å tolke ut av kontekst, at aria er lik på footer og topnav (samme endepunkt). De sier også at kontrasten på slogan over parallax bilder har for lav kontrast. Jeg ser ikke på dette som en feil, da kontrasten ikke er visuelt synlig og en person som hadde brukt skjerm ville forstått konteskten ved knappene, da jeg har aria-label på de. 
+Jeg har tatt utganspunkt i respnsivness helt ned til iPhone SE med width på 375px. de fleste sidene funker uten noe som helst vertikal scroll ned til 320px. Jeg valgte å skrive diverse mål i rem, siden alt vil scale bra hvis siden blir brukt av noen som har satt default font størrelse i browser. 
+
+Underveis har jeg kjørt validering via https://wave.webaim.org har jeg fått warning for at beskrivelsen av linker er vanskelig å tolke ut av kontekst, at aria er lik på footer og topnav (samme endepunkt). De sier også at kontrasten på slogan over parallax bilder har for lav kontrast. Jeg ser ikke på dette som en feil, da kontrasten ikke er visuelt synlig og en person som hadde brukt skjerm ville forstått konteskten ved knappene, da jeg har aria-label på de. 
 
 
 ### Diverse problemer som har fått meg til å klø godt i hodet:

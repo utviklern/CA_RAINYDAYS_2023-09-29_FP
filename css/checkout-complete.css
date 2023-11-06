@@ -41,3 +41,9 @@ main {
 .h1-banner {
     margin-top: var(--rem-spacing2);
 }
+
+@media screen and (max-width: 587px) {
+    #content-box img {
+        max-width: 20rem;
+    }
+}
