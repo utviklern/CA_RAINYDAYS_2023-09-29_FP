@@ -20,7 +20,7 @@ Jeg droppet "tilbake" knapp på produkt spesifikk side, siden knappen hadde krev
 ### Responsivness
 Jeg har tatt utganspunkt i respnsivness helt ned til iPhone SE med width på 375px. De fleste sidene funker uten noe som helst vertikal scroll ned til 320px. Jeg valgte å skrive diverse mål i rem, siden alt vil scale bra hvis siden blir brukt av noen som har satt default font størrelse i browser. 
 
-Underveis har jeg kjørt validering via https://wave.webaim.org har jeg fått warning for at beskrivelsen av linker er vanskelig å tolke ut av kontekst, at aria er lik på footer og topnav (samme endepunkt). De sier også at kontrasten på slogan over parallax bilder har for lav kontrast. Jeg ser ikke på dette som en feil, da kontrasten ikke er visuelt synlig siden det ligger ett bilde mellom bakgrunn og teksten, og en person som hadde brukt skjermleser ville forstått konteskten ved knappene, da jeg har aria-label på de. 
+Underveis har jeg kjørt validering via https://wave.webaim.org/report#/https://rainydaysstore.netlify.app/ har jeg fått warning for at beskrivelsen av linker er vanskelig å tolke ut av kontekst, at aria er lik på footer og topnav (samme endepunkt). De sier også at kontrasten på slogan over parallax bilder har for lav kontrast. Jeg ser ikke på dette som en feil, da kontrasten ikke er visuelt synlig siden det ligger ett bilde mellom bakgrunn og teksten, og en person som hadde brukt skjermleser ville forstått konteskten ved knappene, da jeg har aria-label på de. 
 
 
 ### Diverse problemer som har fått meg til å klø godt i hodet:
