@@ -81,6 +81,7 @@
     font-weight: 800;
     border-bottom: 2px solid black;
     margin-bottom: var(--rem-spacing4);
+    text-align: center;
 }
 
 
