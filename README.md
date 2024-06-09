@@ -3,6 +3,7 @@
 ![image](https://imagizer.imageshack.com/v2/952x501q70/r/923/tPnTUh.png)
 
 A simple static webpage that illustrates an online shop.
+
 Netlify link: https://rainydaysstore.netlify.app/
 
 ## Description
@@ -24,6 +25,8 @@ with the mobile navbar. i choose to make that in a "app" kind of way, which is u
 that makes a nice effect.
 
 all in all i learned a lot from this project.
+
+Read more on my portfolio page: https://www.utviklern.netlify.app/
 
 
 ## Built With
