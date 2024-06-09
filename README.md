@@ -1,50 +1,41 @@
-# CA_RAINYDAYS_2023-09-29_FP
- 
-Netlify link: 
+# Rainydays store
 
-https://rainydaysstore.netlify.app/
+![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-___________________________________________________________
+A simple static webpage that illustrates an online shop.
 
+## Description
 
+this was my first coding assignment. We were given a choice to pick one out of 3 topics to make a static webpage out of.
+i choose to make rainydays, which is a web shop that sells jackets.  The site is made purely of CSS and HTML.
 
-# Rapport
+the site contains the following pages:
+- Home
+- Products
+- About
+- Contact
+- Cart
+- Checkout
+- Checkout complete
 
-### Generelt
+Since this was my first project, i had a lot of trouble getting elements where i wanted them to be. This was especialy true
+with the mobile navbar. i choose to make that in a "app" kind of way, which is untraditional, but fun.
 
-Jeg startet med å lage oppbyggingen av siden. Jeg fulgte Figma designet så langt det lot seg gjøre. Jeg har lært mye bedre hvordan man skal designe og strukturere nettsider gjennom dette prosjektet, noe som er veldig bra for fremtidige prosjekter. 
-
-Jeg droppet "tilbake" knapp på produkt spesifikk side, siden knappen hadde krevd JS som ikke er lov i dette prosjektet. Dette resulterte igjen at det ikke ble 3 forksjellige produktspesifikke sider på mobilutgave. ellers er det meste tilnærmet likt figma.
-
-
-### Responsivness
-Jeg har tatt utganspunkt i respnsivness helt ned til iPhone SE med width på 375px. De fleste sidene funker uten noe som helst vertikal scroll ned til 320px. Jeg valgte å skrive diverse mål i rem, siden alt vil scale bra hvis siden blir brukt av noen som har satt default font størrelse i browser. 
-
-
-
-### Diverse problemer som har fått meg til å klø godt i hodet:
-
-Underveis har jeg kjørt validering via https://wave.webaim.org/report#/https://rainydaysstore.netlify.app/ har jeg fått warning for at beskrivelsen av linker er vanskelig å tolke ut av kontekst, at aria er lik på footer og topnav (samme endepunkt). De sier også at kontrasten på slogan over parallax bilder har for lav kontrast. Jeg ser ikke på dette som en feil, da kontrasten ikke er visuelt synlig siden det ligger ett bilde mellom bakgrunn og teksten, og en person som hadde brukt skjermleser ville forstått konteskten ved knappene, da jeg har aria-label på de. Jeg får også kjeft av https://validator.w3.org/nu/ som sier aria tag på parralax er feil. Basert på min kunnskap må jeg ha dette for å kunne vise til kilden bildet kommer fra.
-
-Annet:
-
-* "A" er inline element default, lettere å posisjonere hvis man endrer til block eller annet.
-
-* Viktigheten med z-index. uten Z-index på navbar ville produktbilder som har scale propery gå over navbar.
-
-* For at margin auto skal funke må parent være eks flex.
-
-* Hvis man har position fixed på ett element må man ha left:0 og right:0 for at man kan ta "calc" for å width med vw.
-
-* Å spesifisere height utenom veldig spesifikke ting som eks bilder, er en dårlig ide.
+all in all i learned a lot from this project.
 
 
-### konklusjon
-Alt i alt er jeg fornøyd med resultatet. Jeg synes dette har vært ett givende prosjekt, da jeg føler jeg har lært mer av dette enn det jeg har gjort med eks. mollify oppgaver.
+## Built With
+
+- [HTML]
+- [CSS]
 
 
-### diverse nettsider som har hjulpet meg underveis
+
+
+## Acknowledgments
+
 * https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text
 * https://cssgenerator.org/box-shadow-css-generator.html
 * https://nekocalc.com/px-to-rem-converter
 * https://cssgradient.io/
+
