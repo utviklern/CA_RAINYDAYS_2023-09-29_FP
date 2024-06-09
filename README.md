@@ -1,6 +1,6 @@
 # Rainydays store
 
-![image](https://https://imgur.com/9VcrogG)
+![image](https://imgur.com/9VcrogG)
 
 A simple static webpage that illustrates an online shop.
 
