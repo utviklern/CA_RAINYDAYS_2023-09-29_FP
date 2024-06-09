@@ -3,6 +3,7 @@
 ![image](https://imagizer.imageshack.com/v2/952x501q70/r/923/tPnTUh.png)
 
 A simple static webpage that illustrates an online shop.
+Netlify link: https://rainydaysstore.netlify.app/
 
 ## Description
 
