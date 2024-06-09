@@ -26,7 +26,7 @@ that makes a nice effect.
 
 all in all i learned a lot from this project.
 
-Read more on my portfolio page: https://www.utviklern.netlify.app/
+Read more on my portfolio page: https://utviklern.netlify.app/
 
 
 ## Built With
