@@ -1,6 +1,6 @@
 # Rainydays store
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://https://imgur.com/9VcrogG)
 
 A simple static webpage that illustrates an online shop.
 
@@ -19,7 +19,8 @@ the site contains the following pages:
 - Checkout complete
 
 Since this was my first project, i had a lot of trouble getting elements where i wanted them to be. This was especialy true
-with the mobile navbar. i choose to make that in a "app" kind of way, which is untraditional, but fun.
+with the mobile navbar. i choose to make that in a "app" kind of way, which is untraditional, but fun. eache page has a parralax in header
+that makes a nice effect.
 
 all in all i learned a lot from this project.
 
